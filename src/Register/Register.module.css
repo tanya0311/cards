@@ -1,0 +1,116 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#E6D4DE, #9890C7);
+    height: 100vh;
+    width: 100%;
+}
+
+.registerBlock {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: #F9F9FE;
+    height: 400px;
+    border-radius: 8px;
+    padding-bottom: 50px;
+}
+
+.form{
+    max-width: 350px;
+}
+
+
+.formInput div {
+    width: 350px;
+    padding: 5px;
+}
+
+.buttonBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.registerButton {
+    width: 187px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #21268F;
+    border: 1px solid #21268F;
+    color: white;
+    border-top: 4px solid #2f3599;
+    transition: all 0.4s ease;
+    font-size: 16px;
+}
+
+.registerButton:hover{
+    transition: all 0.8s ease;
+    -moz-box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+    -webkit-box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+    box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+    background: rgb(26, 67, 148);
+}
+
+.cancelButton{
+    width: 124px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px solid #D7D8EF;
+    background-color: #D7D8EF;
+    color: #21268F;
+}
+
+.cancelButton:hover{
+    transition: all 0.8s ease;
+    -moz-box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+    -webkit-box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+    box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+}
+
+@media screen and (max-width: 420px){
+    .registerBlock{
+        width: 350px;
+    }
+    .form{
+        max-width: 300px;
+    }
+    .formInput div {
+        width: 300px;
+        padding: 3px;
+    }
+    .cancelButton{
+        width: 100px;
+        height: 30px;
+    }
+    .registerButton{
+        width: 160px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .registerBlock{
+        width: 300px;
+    }
+    .form{
+        max-width: 260px;
+    }
+    .formInput div {
+        width: 260px;
+        padding: 2px;
+    }
+    .cancelButton{
+        width: 80px;
+        height: 30px;
+    }
+    .registerButton{
+        width: 140px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+.editableSpan{
+    margin: 15px;
+}
+
+.spanText{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.spanText:hover{
+   background-color: lightgray;
+}
+
+.className{
+    color: blue;
+}

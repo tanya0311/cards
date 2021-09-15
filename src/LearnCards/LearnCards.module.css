@@ -1,0 +1,91 @@
+h4{
+   display: inline;
+}
+.rating h4{
+   display: block;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.rating button{
+   display: block;
+   margin-bottom: 10px;
+}
+.learnCards{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#e6d4de, #9890c7);
+  height: 110vh;
+  width: 100%;
+}
+.learnCardsBlock{
+   height: 500px;
+   padding-top: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 400px;
+   background-color: #f9f9fe;
+   border-radius: 8px;
+   padding-bottom: 50px;
+}
+.answerBlock{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto
+
+}
+.question, .answer{
+   margin: 30px 0;
+}
+
+.radioButtons {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.radioButton{
+   height: 20px;
+}
+
+
+.learnCheckButton button{
+   width: 180px;
+   height: 36px;
+   border-radius: 30px;
+   background-color: #21268f;
+   border: 1px solid #21268f;
+   color: white;
+   border-top: 4px solid #2f3599;
+   transition: all 0.4s ease;
+   font-size: 16px;
+}
+
+.learnButton{
+   width: 300px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+.learnNextButton {
+   width: 100px;
+   height: 36px;
+   border-radius: 30px;
+   background-color: #21268f;
+   border: 1px solid #21268f;
+   color: white;
+   border-top: 4px solid #2f3599;
+   transition: all 0.4s ease;
+   font-size: 16px;
+}
+.learnCancelButton{
+   width: 100px;
+   height: 36px;
+   border-radius: 30px;
+   border: 1px solid #D7D8EF;
+   background-color: #D7D8EF;
+   color: #21268F;
+}

@@ -1,0 +1,21 @@
+.pagiator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: content-box;
+	padding: 5px 0 15px 0;
+   font-size: 15px;
+}
+
+
+
+.pageNumber {
+	display: flex;
+	justify-content: center;
+	padding: 2px;
+}
+
+
+.selected {
+	font-weight: 600;
+}

@@ -1,0 +1,81 @@
+.cards{
+    background: linear-gradient(#e6d4de, #9890c7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardsContainer{
+    min-height: 550px;
+    background-color: white;
+    width: 1200px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cardsTable{
+    width: 1000px;
+}
+
+.backButton{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1100px){
+    .cardsContainer{
+        width: 900px;
+    }
+    .cardsTable{
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .cardsContainer{
+        width: 900px;
+    }
+    .cardsTable{
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .cardsContainer{
+        width: 800px;
+    }
+    .cardsTable{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .cardsContainer{
+        width: 700px;
+    }
+    .cardsTable{
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .cardsContainer{
+        width: 600px;
+    }
+    .cardsTable{
+        width: 550px;
+    }
+}

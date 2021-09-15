@@ -1,0 +1,31 @@
+.errorBlock{
+    min-height: 100vh;
+    display: flex;
+    padding: 200px 0;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.errorText{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.link{
+    font-size: 20px;
+}
+
+.pageNotFound{
+    font-size: 25px;
+    padding-bottom: 30px;
+}

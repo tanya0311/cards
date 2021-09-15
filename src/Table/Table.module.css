@@ -1,0 +1,20 @@
+.tableContainer{
+    max-width: 950px;
+    margin-bottom: 10px;
+}
+
+.tableMain{
+    margin-left: 25px;
+}
+
+.search{
+    margin-bottom: 25px;
+}
+
+.tableMain h2{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1100px){
+}
+

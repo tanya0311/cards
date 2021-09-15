@@ -1,0 +1,27 @@
+.superInput {
+    background-color: #ECECF9;
+    border: 1px solid #635D80;
+    border-radius: 2px;
+    padding: 5px;
+    color: blue;
+    outline: none;
+    width: 461px;
+    height: 36px;
+}
+
+.errorInput {
+    background-color: white;
+    border: 3px solid lime;
+    border-radius: 10px;
+    padding: 5px;
+    color: blue;
+    outline: none;
+}
+
+.error {
+    color: red;
+}
+
+.search{
+    width: 500px;
+}

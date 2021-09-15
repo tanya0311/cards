@@ -1,0 +1,20 @@
+.blue {
+    border: 1px solid blue;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+}
+
+.testSpanError {
+    color: blue;
+}
+
+.input:focus {
+    outline: none;
+    border: blue solid 2px;
+}

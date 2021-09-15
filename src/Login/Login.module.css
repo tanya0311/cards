@@ -1,0 +1,147 @@
+h1,
+h2 {
+  margin: 10px 0 5px;
+}
+
+/* общий */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#e6d4de, #9890c7);
+  height: 110vh;
+  width: 100%;
+}
+
+.loginItem a,
+button {
+  display: block;
+}
+
+.loginBlock {
+  height: 600px;
+  /* общий */
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: sflex-start;
+  align-items: center;
+  width: 400px;
+  background-color: #f9f9fe;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+
+.form {
+  width: 350px;
+  padding: 5px;
+  margin-top: 40px;
+}
+.form input {
+  margin-top: 20px;
+}
+.rememberMe {
+  margin: 10px 0 0 10px;
+}
+
+.forgot {
+  width: 350px;
+  text-align: right;
+}
+.forgot a {
+  display: block;
+  margin: 10px 0 90px;
+  color: #2d2e46;
+  font-size: 14px;
+}
+.loginButton {
+  display: flex;
+  justify-content: space-around;
+}
+.loginButton button {
+  width: 266px;
+  /* общий */
+  height: 36px;
+  border-radius: 30px;
+  background-color: #21268f;
+  border: 1px solid #21268f;
+  color: white;
+  border-top: 4px solid #2f3599;
+  transition: all 0.4s ease;
+  font-size: 16px;
+}
+
+.loginButton button:hover {
+  transition: all 0.8s ease;
+  -moz-box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+  -webkit-box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+  box-shadow: 0 0 20px rgba(60, 170, 214, 0.5);
+  background: rgb(26, 67, 148);
+}
+
+.singIn {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.singIn p {
+  color: #2d2e46;
+  font-size: 14px;
+}
+.singIn a {
+  color: #21268f;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 420px) {
+  .login {
+    height: 100vh;
+  }
+  .loginBlock {
+    width: 350px;
+    height: 400px;
+  }
+  .form {
+    width: 300px;
+    margin-top: 10px;
+  }
+  .form input {
+    margin-top: 10px;
+  }
+  .forgot {
+    width: 300px;
+  }
+  .forgot a {
+    margin: 10px 0 40px;
+  }
+  .singIn {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .login {
+    height: 100vh;
+  }
+  .loginBlock {
+    width: 300px;
+    height: 400px;
+  }
+  .form {
+    width: 260px;
+    margin-top: 10px;
+  }
+  .form input {
+    margin-top: 10px;
+  }
+  .forgot {
+    width: 260px;
+  }
+  .forgot a {
+    margin: 5px 0 20px;
+  }
+  .singIn {
+    margin-top: 20px;
+  }
+}
