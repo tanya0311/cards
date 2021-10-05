@@ -36,6 +36,8 @@ function App() {
             </div>
             {status && <LinearProgress color="secondary"/>}
             <Switch>
+                <Route exact path='/'
+                       render={() => <Redirect to={"/profile"} />}/>
                 <Route path="/login"
                        render={() => <Login/>}/>
                 <Route path="/register"
@@ -59,7 +61,7 @@ function App() {
                 {/*<Route path="/404"*/}
                 {/*       render={() => <Error/>}/>*/}
                 {/*<Redirect from={ '*' } to={'/404'}/>*/}
-                <Redirect from={ '/' } to={'/profile'}/>
+                {/* <Redirect from={ '/' } to={'/profile'}/> */}
             </Switch>
         </div>
     );
